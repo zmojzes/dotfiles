@@ -2,6 +2,9 @@
 " Options
 " ========================================
 
+set nocompatible
+FileType plugin on
+
 set encoding=UTF-8
 set spelllang=en_us,de_de,es_es
 set nohlsearch " Disable highlight on search
