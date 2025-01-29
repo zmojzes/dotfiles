@@ -1,9 +1,16 @@
 " ========================================
-" Options
+" Options added
 " ========================================
 
 set nocompatible
-FileType plugin on
+filetype plugin on
+"provides tab completion
+set path+=**
+"Display all matching files with tab
+set wildmenu
+" ========================================
+" Options
+" ========================================
 
 set encoding=UTF-8
 set spelllang=en_us,de_de,es_es
