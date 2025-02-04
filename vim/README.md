@@ -1,4 +1,15 @@
 ```bash
+mkdir -pv $HOME/.vim/{backup,swap,undo}
+```
+In .vimrc
+```
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
+
+```
+
+```bash
 cp wildcharm.vim /usr/share/vim/vim91/colors
 ```
 
