@@ -29,3 +29,4 @@ wget https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_6
 chmod +x ./nvim.appimage
 sudo mv nvim.appimage /usr/local/bin/nvim
 ```
+Lua Hana https://github.com/lunarmodules/luasql/tree/master
