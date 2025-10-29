@@ -15,3 +15,18 @@ curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/downl
 tar xf lazygit.tar.gz lazygit
 sudo install lazygit -D -t /usr/local/bin/
 ```
+
+
+### Install on debian
+```bash
+wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.appimage
+```
+
+```bash
+wget https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.appimage
+```
+```
+chmod +x ./nvim.appimage
+sudo mv nvim.appimage /usr/local/bin/nvim
+```
+Lua Hana https://github.com/lunarmodules/luasql/tree/master
